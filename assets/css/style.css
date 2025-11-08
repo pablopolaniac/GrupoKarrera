@@ -893,13 +893,17 @@ textarea {
     padding: 1.5rem;
     display: grid;
     gap: 1.2rem;
-    transform: translateY(calc(-100% - var(--header-height)));
-    transition: transform 0.3s ease;
+    transform: translateY(calc(-100% - 2rem));
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
     box-shadow: 0 20px 40px rgba(10, 10, 10, 0.15);
   }
 
   .mobile-menu.open {
     transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
   }
 
   .mobile-menu a {
