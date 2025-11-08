@@ -886,13 +886,15 @@ textarea {
 
   .mobile-menu {
     position: fixed;
-    inset: var(--header-height) 0 auto 0;
+    top: var(--header-height);
+    left: 0;
+    right: 0;
     background: rgba(247, 244, 232, 0.98);
     padding: 1.5rem;
     display: grid;
     gap: 1.2rem;
-    transform: translateY(-120%);
-    transition: var(--transition);
+    transform: translateY(calc(-100% - var(--header-height)));
+    transition: transform 0.3s ease;
     box-shadow: 0 20px 40px rgba(10, 10, 10, 0.15);
   }
 
