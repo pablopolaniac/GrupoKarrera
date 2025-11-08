@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacto | Grupo Karrera</title>
+    <meta
+      name="description"
+      content="Contacta a Grupo Karrera para asesoría inmobiliaria, jurídica y de propiedad horizontal en Bogotá."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/images/logo.jpg" type="image/jpeg" />
+  </head>
+  <body id="top">
+    <header>
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Grupo Karrera Inicio">
+          <img src="assets/images/logo.jpg" alt="Logo Grupo Karrera" />
+          <span>Grupo Karrera</span>
+        </a>
+        <nav aria-label="Principal">
+          <ul class="nav-links">
+            <li><a class="nav-link" href="index.html">Inicio</a></li>
+            <li><a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a></li>
+            <li><a class="nav-link" href="servicios.html">Servicios</a></li>
+            <li><a class="nav-link active" href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <div class="nav-cta">
+          <a
+            class="btn btn-outline"
+            href="https://www.mipagoamigo.com/MPA_WebSite/ServicePayments/StartPayment?id=3964&searchedCategoryId=&searchedAgreementName=GRUPO%20KARRERA%20SAS"
+            target="_blank"
+            rel="noopener"
+            >Pagar en línea</a
+          >
+        </div>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Abrir menú">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M4 6h16M4 12h16M4 18h16" stroke="#0A0A0A" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu" aria-hidden="true">
+        <a class="nav-link" href="index.html">Inicio</a>
+        <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
+        <a class="nav-link" href="servicios.html">Servicios</a>
+        <a class="nav-link" href="contacto.html">Contacto</a>
+        <a
+          class="btn btn-secondary"
+          href="https://www.mipagoamigo.com/MPA_WebSite/ServicePayments/StartPayment?id=3964&searchedCategoryId=&searchedAgreementName=GRUPO%20KARRERA%20SAS"
+          target="_blank"
+          rel="noopener"
+          >Pagar en línea</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <h1>Estamos listos para escucharte.</h1>
+          <p>
+            Escríbenos para agendar una reunión, solicitar una propuesta o recibir soporte inmediato. Te responderemos en
+            un plazo máximo de 24 horas hábiles.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="container contact-grid">
+          <aside class="contact-card">
+            <h2>Datos de contacto</h2>
+            <ul class="contact-list">
+              <li>
+                <strong>Dirección</strong>
+                <span>Calle 61 # 13-44 Oficina 400</span>
+                <span>Bogotá, Colombia</span>
+              </li>
+              <li>
+                <strong>Correo electrónico</strong>
+                <a href="mailto:atencionalcliente@karrerain.com">atencionalcliente@karrerain.com</a>
+              </li>
+              <li>
+                <strong>Teléfonos</strong>
+                <a href="tel:+6012553545">(+571) 255 3545</a>
+                <a href="tel:+573152331390">(+57) 315 233 1390</a>
+              </li>
+              <li>
+                <strong>WhatsApp</strong>
+                <a href="https://wa.me/573177488003" target="_blank" rel="noopener">+57 317 748 8003</a>
+              </li>
+            </ul>
+            <div class="social-links">
+              <a href="https://www.facebook.com/Karrerain/?locale=es_LA" target="_blank" rel="noopener">Facebook</a>
+              <a href="https://www.instagram.com/grupokarrerasas/" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://www.tiktok.com/@karrera.inmobilia" target="_blank" rel="noopener">TikTok</a>
+            </div>
+          </aside>
+          <div class="form-card">
+            <h2>Cuéntanos cómo podemos ayudarte</h2>
+            <p>Completa el formulario y uno de nuestros asesores se comunicará contigo a la mayor brevedad.</p>
+            <div class="success-message" role="status" aria-live="polite"></div>
+            <form data-form="contact">
+              <div>
+                <label for="nombre">Nombre completo *</label>
+                <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required />
+              </div>
+              <div>
+                <label for="email">Correo electrónico *</label>
+                <input id="email" name="email" type="email" placeholder="tunombre@correo.com" required />
+              </div>
+              <div>
+                <label for="telefono">Teléfono o WhatsApp</label>
+                <input id="telefono" name="telefono" type="tel" placeholder="+57 300 000 0000" />
+              </div>
+              <div>
+                <label for="asunto">Asunto</label>
+                <select id="asunto" name="asunto">
+                  <option value="" disabled selected>Selecciona una opción</option>
+                  <option value="asesoria-inmobiliaria">Asesoría inmobiliaria</option>
+                  <option value="asesoria-juridica">Asesoría jurídica</option>
+                  <option value="propiedad-horizontal">Gestión de propiedad horizontal</option>
+                  <option value="pagos-en-linea">Soporte pagos en línea</option>
+                  <option value="otro">Otro</option>
+                </select>
+              </div>
+              <div>
+                <label for="mensaje">Mensaje *</label>
+                <textarea
+                  id="mensaje"
+                  name="mensaje"
+                  placeholder="Cuéntanos brevemente qué necesitas..."
+                  required
+                ></textarea>
+              </div>
+              <button class="btn btn-secondary" type="submit">Enviar mensaje</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-light">
+        <div class="container">
+          <h2>Visítanos en Bogotá</h2>
+          <p>Estamos en el barrio Chapinero, con fácil acceso a transporte público y parqueaderos cercanos.</p>
+          <div class="map-embed">
+            <iframe
+              title="Ubicación Grupo Karrera"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.698093266837!2d-74.06877492390709!3d4.645467942013433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a355f3536ad%3A0xd3f1cdd192d08bc!2sCl.%2061%20%2313-44%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1731000000000!5m2!1ses-419!2sco"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container contact-cta">
+          <div>
+            <h2>¿Prefieres hablar ahora mismo?</h2>
+            <p>
+              Pulsa el botón y conecta por WhatsApp con nuestro equipo. También podemos coordinar una videollamada o
+              visita presencial.
+            </p>
+          </div>
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="https://wa.me/573177488003" target="_blank" rel="noopener"
+              >Abrir WhatsApp</a
+            >
+            <a class="btn btn-outline" href="mailto:atencionalcliente@karrerain.com">Escribir un correo</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <a class="brand" href="index.html">
+              <img src="assets/images/logo.jpg" alt="Logo Grupo Karrera" />
+              <span>Grupo Karrera</span>
+            </a>
+            <p>
+              Acompañamos a propietarios, inversionistas y copropiedades con asesoría inmobiliaria, jurídica y operativa
+              integral desde Bogotá para toda Colombia.
+            </p>
+          </div>
+          <div>
+            <h4>Explora</h4>
+            <nav class="footer-nav">
+              <a href="index.html">Inicio</a>
+              <a href="sobre-nosotros.html">Sobre Nosotros</a>
+              <a href="servicios.html">Servicios</a>
+              <a href="contacto.html">Contacto</a>
+            </nav>
+          </div>
+          <div>
+            <h4>Contáctanos</h4>
+            <p>Calle 61 # 13-44 Oficina 400<br />Bogotá, Colombia</p>
+            <p><a href="mailto:atencionalcliente@karrerain.com">atencionalcliente@karrerain.com</a></p>
+            <p><a href="tel:+573152331390">(+57) 315 233 1390</a></p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© <span id="year"></span> Grupo Karrera. Todos los derechos reservados.</span>
+          <a class="back-to-top" href="#top" aria-label="Volver arriba">Volver arriba ↑</a>
+        </div>
+      </div>
+    </footer>
+
+    <a class="whatsapp-fab" href="https://wa.me/573177488003" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+        <path
+          d="M20.52 3.48A11.81 11.81 0 0 0 12 0a11.94 11.94 0 0 0-10.3 17.9L0 24l6.3-1.65a11.95 11.95 0 0 0 5.7 1.45h.01a11.94 11.94 0 0 0 11.95-11.94 11.81 11.81 0 0 0-3.44-8.38ZM12 21.73h-.01a9.77 9.77 0 0 1-4.99-1.37l-.36-.21-3.74.97 1-3.64-.24-.37A9.8 9.8 0 0 1 12 2.26a9.7 9.7 0 0 1 6.94 2.87 9.74 9.74 0 0 1 2.86 6.94 9.78 9.78 0 0 1-9.8 9.66Zm5.38-7.33c-.29-.15-1.7-.84-1.96-.94-.26-.1-.45-.15-.64.15-.19.29-.73.94-.9 1.13-.17.19-.33.21-.62.07-.29-.15-1.23-.45-2.35-1.44-.86-.77-1.44-1.72-1.61-2-.17-.29-.02-.45.13-.6.14-.14.29-.33.43-.5.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.5-.07-.15-.64-1.54-.88-2.11-.23-.55-.47-.48-.64-.49l-.55-.01c-.19 0-.5.07-.76.36s-1 1-1 2.44 1.02 2.83 1.16 3.03c.14.19 2 3.02 4.84 4.24.68.29 1.21.46 1.62.59.68.22 1.3.19 1.79.12.55-.08 1.7-.7 1.94-1.38.24-.67.24-1.24.17-1.38-.07-.14-.26-.22-.55-.37Z"
+          fill="#ffffff"
+        />
+      </svg>
+    </a>
+
+    <script src="assets/js/main.js" defer></script>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
